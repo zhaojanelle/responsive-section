@@ -26,13 +26,12 @@ body {
 .img-flex {
   display: block;
   width: 100%;
-  overflow: hidden;
-  padding: 1.3rem;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: 45em;
+  overflow: hidden;
 }
 
 section {
@@ -48,24 +47,32 @@ section p {
 }
 
 .section-body {
-  padding: 1.4rem;
+  padding: 1.3rem;
   padding-top: 0;
 }
 
 .section-letter {
   float: left;
   width: 50%;
+  padding: 1rem;
+  padding-right: 0;
 }
 
 .section-icon {
   float: right;
   width: 50%;
+  padding: 1rem;
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 25em) {
 
   .section-letter {
+    padding: 1.3rem;
+  }
 
+  .section-icon {
+    padding: 1.3rem;
   }
 
 }
@@ -77,6 +84,20 @@ section p {
     line-height: 1.4;
   }
 
+  .section-body {
+    padding: 1.3rem;
+    padding-top: 1.3rem;
+  }
+
+  .section-letter {
+    float: left;
+    width: 25%;
+  }
+
+  .section-icon {
+    float: right;
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -84,8 +105,6 @@ section p {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
