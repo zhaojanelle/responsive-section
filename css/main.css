@@ -26,6 +26,8 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+  overflow: hidden;
+  padding: 1.3rem;
 }
 
 .wrapper {
@@ -38,23 +40,26 @@ section {
 }
 
 section h2 {
-
+  margin: 0;
 }
 
 section p {
-
+  margin: 0;
 }
 
 .section-body {
-  overflow: hidden;
+  padding: 1.4rem;
+  padding-top: 0;
 }
 
 .section-letter {
   float: left;
+  width: 50%;
 }
 
 .section-icon {
   float: right;
+  width: 50%;
 }
 
 @media only screen and (min-width: 25em) {
