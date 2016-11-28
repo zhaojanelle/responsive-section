@@ -55,6 +55,7 @@ section p {
   float: left;
   width: 50%;
   padding: 1rem;
+  padding-bottom: 0;
   padding-right: 0;
 }
 
@@ -62,6 +63,7 @@ section p {
   float: right;
   width: 50%;
   padding: 1rem;
+  padding-bottom: 0;
   padding-left: 0;
 }
 
@@ -69,12 +71,13 @@ section p {
 
   .section-letter {
     padding: 1.3rem;
+    padding-bottom: 0;
   }
 
   .section-icon {
     padding: 1.3rem;
+    padding-bottom: 0;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -86,7 +89,6 @@ section p {
 
   .section-body {
     padding: 1.3rem;
-    padding-top: 1.3rem;
   }
 
   .section-letter {
@@ -105,6 +107,7 @@ section p {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -112,5 +115,4 @@ section p {
   html {
     font-size: 130%;
   }
-
 }
